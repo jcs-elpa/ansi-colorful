@@ -4,6 +4,8 @@
 # ansi-colorful
 > Toggle render `ansi-color`
 
+[![CI](https://github.com/jcs-elpa/ansi-colorful/actions/workflows/test.yml/badge.svg)](https://github.com/jcs-elpa/ansi-colorful/actions/workflows/test.yml)
+
 Before,
 
 ![before](./etc/before.png)
@@ -17,7 +19,7 @@ After,
 Enable the `ansi-colorful` in your desired mode:
 
 ```elisp
-(add-hook 'logview-mode #'ansi-colorful-mode)
+(add-hook 'logview-mode-hook #'ansi-colorful-mode)
 ```
 
 Or you can activate it manually:
