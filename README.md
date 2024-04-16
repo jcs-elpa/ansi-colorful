@@ -4,7 +4,12 @@
 # ansi-colorful
 > Toggle render `ansi-color`
 
+Before,
+
 ![before](./etc/before.png)
+
+After,
+
 ![after](./etc/after.png)
 
 ## 🔧 Usage
