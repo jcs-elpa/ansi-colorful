@@ -1,3 +1,5 @@
+;; -*- mode: eask; lexical-binding: t -*-
+
 (package "ansi-colorful"
          "0.1.0"
          "Toggle render ansi-color")
